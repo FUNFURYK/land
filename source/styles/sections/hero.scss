@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.heroBlock{
+  float: left;
+  display: block;
+  background:url("../../images/fon11.png") no-repeat;
+  margin-left: 690px;
+  width: 2500px;
+  height: 580px;
+  position: relative;
+}
+.hero__title{
+  padding-left: 150px;
+  padding-top: 60px;
+  float: left;
+  color: white;
+  font-size: 35pt;
+
+}
+
+.hero_futures{
+  font-weight: bolder;
+  font-size: 20pt;
+  padding-left: 700px;
+  padding-top: 10px;
+}
+
+.fon__goog{
+  float: left;
+  padding-left: 100px;
+}
+
+.mobila {
+  display: block;
+  padding-left: 150px;
+  width: 600px;
+  height: 650px;
+
+}
+
+.google{
+  img,{
+    display: inline-block;
+    float:left;
+    margin-right: 17px;
+  }
+  span2,{
+    font-weight: bold;
+  }
+  position: absolute;
+  bottom: 250px;
+  left: 190px;
+  color: white;
+  font-size: 14pt;
+  border: 2px solid #ecf0f1;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 6px;
+ }
+
+.apple{
+  img,{
+    display: inline-block;
+    float:left;
+    margin-right: 17px;
+  }
+  span2,{
+    font-weight: bold;
+  }
+  position: absolute;
+  bottom: 250px;
+  left: 400px;
+  color: white;
+  font-size: 14pt;
+  border: 2px solid #ecf0f1;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 6px;
+}
+
+.hero_futures{
+  font-weight: bold;
+ }
+
+
