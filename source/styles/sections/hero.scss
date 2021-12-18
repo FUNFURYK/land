@@ -9,7 +9,7 @@ body{
   background:url("../../images/fon11.png") no-repeat;
   margin-left: 690px;
   width: 2500px;
-  height: 580px;
+
   position: relative;
 }
 .hero__title{
@@ -51,7 +51,7 @@ body{
     font-weight: bold;
   }
   position: absolute;
-  bottom: 250px;
+  bottom: 850px;
   left: 190px;
   color: white;
   font-size: 14pt;
@@ -71,7 +71,7 @@ body{
     font-weight: bold;
   }
   position: absolute;
-  bottom: 250px;
+  bottom: 850px;
   left: 400px;
   color: white;
   font-size: 14pt;
@@ -85,4 +85,55 @@ body{
   font-weight: bold;
  }
 
+.features {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 270px;
 
+  .left__text {
+    margin-right: 70px;
+    .features-img {
+      margin-right: 40px;
+    }
+  }
+  .right__text {
+    margin-left: 70px;
+    .features-img {
+      margin-left: 40px;
+    }
+  }
+
+  &-block {
+    display: flex;
+    margin-bottom: 52px;
+  }
+
+  &-img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 17px;
+  }
+
+  &-description {
+    width: 220px;
+
+    h1 {
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgb(22, 30, 38);
+      line-height: 1.2;
+    }
+  }
+
+  &-text {
+    margin-top: 32px;
+  }
+
+  .left__text &-text, h1 {
+    text-align: left;
+  }
+  .right__text &-text, h1 {
+    text-align: right;
+  }
+}

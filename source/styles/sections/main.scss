@@ -1,0 +1,31 @@
+.mainblock{
+  width: 1370px;
+  height: 600px;
+  background:url("../../images/fon3.png") no-repeat;
+  clear: both;
+  margin-left: 690px;
+  width: 2500px;
+}
+
+
+.left__phone{
+  display: flex;
+  padding-left: 170px;
+  padding-top: 90px;
+}
+
+.main-description{
+  padding-top: 100px;
+  padding-left: 130px;
+
+}
+
+.mainblock {
+  span, h1 {
+    color: white;
+  }
+}
+
+.nonetext{
+    color: white;
+  }
